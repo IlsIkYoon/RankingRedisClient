@@ -19,3 +19,4 @@
 /Users/yun-ilsik/Yoon-il-sik/VsCode/VSPractice/VSPractice/bin/Debug/net8.0/System.IO.Pipelines.dll
 /Users/yun-ilsik/Yoon-il-sik/VsCode/VSPractice/VSPractice/obj/Debug/net8.0/VSPractice.csproj.AssemblyReference.cache
 /Users/yun-ilsik/Yoon-il-sik/VsCode/VSPractice/VSPractice/obj/Debug/net8.0/VSPractice.csproj.Up2Date
+/Users/yun-ilsik/Yoon-il-sik/VsCode/VSPractice/VSPractice/obj/Debug/net8.0/VSPractice.sourcelink.json
