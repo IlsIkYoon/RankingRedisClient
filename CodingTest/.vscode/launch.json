@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C/C++: clang++ Debug Active File (외부 터미널)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            
+            "externalConsole": true, // <--- 이 부분을 true로 설정
+            "MIMode": "lldb", 
+            "console": "externalTerminal", // <-- 이 부분도 externalTerminal로 명시 (lldb의 경우)
+            
+            "preLaunchTask": "C/C++: clang build active file"
+        }
+    ]
+}

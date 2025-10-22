@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 public class RedisClient
 {
     private readonly ConnectionMultiplexer _redis;
-    private readonly IDatabase _db;
+    public readonly IDatabase _db;
 
     // 생성자: Redis 서버에 연결합니다.
     public RedisClient(string connectionString)
@@ -79,4 +79,6 @@ public class NetworkManager
     }
 
 }
+
+
     

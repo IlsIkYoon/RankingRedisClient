@@ -1,0 +1,15 @@
+/Users/yun-ilsik/Yoon-il-sik/VsCode/RankingServer/bin/Debug/net8.0/RankingServer
+/Users/yun-ilsik/Yoon-il-sik/VsCode/RankingServer/bin/Debug/net8.0/RankingServer.deps.json
+/Users/yun-ilsik/Yoon-il-sik/VsCode/RankingServer/bin/Debug/net8.0/RankingServer.runtimeconfig.json
+/Users/yun-ilsik/Yoon-il-sik/VsCode/RankingServer/bin/Debug/net8.0/RankingServer.dll
+/Users/yun-ilsik/Yoon-il-sik/VsCode/RankingServer/bin/Debug/net8.0/RankingServer.pdb
+/Users/yun-ilsik/Yoon-il-sik/VsCode/RankingServer/obj/Debug/net8.0/RankingServer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yun-ilsik/Yoon-il-sik/VsCode/RankingServer/obj/Debug/net8.0/RankingServer.AssemblyInfoInputs.cache
+/Users/yun-ilsik/Yoon-il-sik/VsCode/RankingServer/obj/Debug/net8.0/RankingServer.AssemblyInfo.cs
+/Users/yun-ilsik/Yoon-il-sik/VsCode/RankingServer/obj/Debug/net8.0/RankingServer.csproj.CoreCompileInputs.cache
+/Users/yun-ilsik/Yoon-il-sik/VsCode/RankingServer/obj/Debug/net8.0/RankingServer.sourcelink.json
+/Users/yun-ilsik/Yoon-il-sik/VsCode/RankingServer/obj/Debug/net8.0/RankingServer.dll
+/Users/yun-ilsik/Yoon-il-sik/VsCode/RankingServer/obj/Debug/net8.0/refint/RankingServer.dll
+/Users/yun-ilsik/Yoon-il-sik/VsCode/RankingServer/obj/Debug/net8.0/RankingServer.pdb
+/Users/yun-ilsik/Yoon-il-sik/VsCode/RankingServer/obj/Debug/net8.0/RankingServer.genruntimeconfig.cache
+/Users/yun-ilsik/Yoon-il-sik/VsCode/RankingServer/obj/Debug/net8.0/ref/RankingServer.dll

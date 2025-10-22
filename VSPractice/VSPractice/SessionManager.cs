@@ -56,6 +56,7 @@ public class SessionManager
 
     public bool RandomPlayerLevelUp(out UInt64 id, out uint currentlevel)
     {
+
         Random rand = new Random();
         int currentIndex = rand.Next((int)maxSessionCount);
         bool levelUpRetval = sessionList[currentIndex].LevelUp();

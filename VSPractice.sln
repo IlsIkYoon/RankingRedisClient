@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VSPractice", "VSPractice", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSPractice", "VSPractice\VSPractice\VSPractice.csproj", "{AD509FDC-B14B-4382-AAFD-6FF7D30DC0E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RankingServer", "RankingServer\RankingServer.csproj", "{66C03F66-0B60-4854-881D-2D96C480B3EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{AD509FDC-B14B-4382-AAFD-6FF7D30DC0E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD509FDC-B14B-4382-AAFD-6FF7D30DC0E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD509FDC-B14B-4382-AAFD-6FF7D30DC0E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C03F66-0B60-4854-881D-2D96C480B3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C03F66-0B60-4854-881D-2D96C480B3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C03F66-0B60-4854-881D-2D96C480B3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C03F66-0B60-4854-881D-2D96C480B3EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AD509FDC-B14B-4382-AAFD-6FF7D30DC0E3} = {687394A1-4B4C-41A6-86A1-EAC39D6BD909}
