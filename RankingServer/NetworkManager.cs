@@ -13,6 +13,8 @@ class CNetworkManager
     public Socket listenSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
     Thread SendThread;
 
+    ManualResetEvent ExitSendThread = new ManualResetEvent(false);
+
     public async Task Start()
     {
         Console.WriteLine("NetworkManager Start!!");
@@ -111,6 +113,12 @@ class CNetworkManager
             long currentTime = DateTimeOffset.UtcNow.ToUnixTimeSeconds();
             long intervalTime = currentTime - prevTime;
             Thread.Sleep(40 - (int)intervalTime);
+
+            bool exitResult = ExitSendThread.WaitOne(0);
+            if (exitResult == true)
+            {
+                break;
+            }
         }
     }
 

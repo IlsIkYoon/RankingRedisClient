@@ -20,7 +20,10 @@ class CSession
 
     public bool SendPacket(CPacket packet)
     {
-        sendBuffer.Enqueue(packet);
+        lock (sessionLock)
+        {
+            sendBuffer.Enqueue(packet);
+        }
 
         return true;
     }
