@@ -41,6 +41,7 @@
         "vector": "cpp",
         "list": "cpp",
         "__split_buffer": "cpp",
-        "execution": "cpp"
+        "execution": "cpp",
+        "tuple": "cpp"
     }
 }

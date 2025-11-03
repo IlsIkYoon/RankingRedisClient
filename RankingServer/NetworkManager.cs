@@ -15,9 +15,9 @@ class CNetworkManager
 
     ManualResetEvent ExitSendThread = new ManualResetEvent(false);
 
+
     public async Task Start()
     {
-        Console.WriteLine("NetworkManager Start!!");
         listenSocket.Bind(new IPEndPoint(IPAddress.Any, serverPort));
         listenSocket.Listen(500);
 
@@ -56,6 +56,7 @@ class CNetworkManager
                 int bytesRead = await clientSocket.ReceiveAsync(currentPacket.GetEnqueueBuffer(), SocketFlags.None);
                 if (bytesRead == 0)
                 {
+                    Debugger.Break();
                     break;
                 }
                 while (true)
